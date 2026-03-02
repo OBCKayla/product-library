@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Chocolate Sugar Free Cake",
+    "sku": "AM001",
+    "category": "Cakes",
+    "casePack": "6 per case",
+    "image": "images/chocolate-cake.jpg",
+    "spec": "specs/chocolate-cake.pdf"
+  }
+]
