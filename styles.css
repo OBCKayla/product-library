@@ -4,31 +4,31 @@ body {
     margin: 40px;
 }
 
-/* Header with stacked logos */
+/* Header container with logos on left, title centered vertically */
 .site-header {
-    text-align: center; /* center everything */
+    display: flex;
+    align-items: center; /* vertically center title and logos */
+    justify-content: space-between; /* logos left, title centered */
     margin-bottom: 30px;
 }
 
+/* Logos group */
 .site-header .logos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;          /* space between stacked logos */
-    margin-bottom: 12px; /* space between logos and title */
+    display: flex;      /* logos side by side */
+    gap: 10px;          /* space between logos */
 }
 
-/* Header logos stacked with controlled size */
+/* Individual logos */
 .site-header .logo {
-    height: 45px;      /* forces the height to 45px */
-    max-height: 45px;  /* ensures it cannot grow bigger */
-    width: auto;       /* maintain aspect ratio */
+    height: 45px;       /* keep the same size */
+    width: auto;
     object-fit: contain;
-    display: block;
 }
 
-/* Header title styling */
+/* Title */
 .site-header h1 {
+    flex: 1;             /* allow title to take remaining space */
+    text-align: center;  /* center the text */
     font-size: 2em;
     font-weight: bold;
     margin: 0;
