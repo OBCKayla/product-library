@@ -1,10 +1,46 @@
 [
   {
-    "name": "Chocolate Sugar Free Cake",
-    "sku": "AM001",
-    "category": "Cakes",
-    "casePack": "6 per case",
-    "image": "images/chocolate-cake.jpg",
-    "spec": "specs/chocolate-cake.pdf"
+    "name": "Sliced Blueberry Crème Cake",
+    "item number": "40770",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40770_BlueCake.jpeg",
+    "spec": "specs/40770_Spec.pdf"
+  },
+  {
+    "name": "Sliced Lemon Crème Cake",
+    "item number": "40775",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40775_Lemoncake.jpeg",
+    "spec": "specs/40775_Spec.pdf"
+  },
+  {
+    "name": "Sugar Free Brownies",
+    "item number": "60850",
+    "brand": "Ann Marie's",
+    "category": "Brownie",
+    "unit weight": "10 oz",
+    "case qty": "9",
+    "shelf life": "21 days",
+    "image": "images/60850_Brownies.jpeg",
+    "spec": "specs/60850_Spec.pdf"
+  },
+  {
+    "name": "Sugar Free Chocolate Chip Cookies",
+    "item number": "60855",
+    "brand": "Ann Marie's",
+    "category": "Cookies",
+    "unit weight": "12 oz",
+    "case qty": "6",
+    "shelf life": "21 days",
+    "image": "images/60855_ChocChipCoo.jpeg",
+    "spec": "specs/60855_Spec.pdf"
   }
 ]
