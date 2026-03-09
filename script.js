@@ -18,14 +18,20 @@ fetch('products.json')
         container.innerHTML = '';
         products.forEach(product => {
             container.innerHTML += `
-                <div class="product">
-                    <img src="${product.image}" alt="${product.name}">
-                    <h3>${product.name}</h3>
-                    <p>SKU: ${product.sku}</p>
-                    <p>Case Pack: ${product.casePack}</p>
-                    <a href="${product.spec}" target="_blank">Download Spec Sheet</a>
-                </div>
-            `;
+   <div class="product">
+        <img src="${product.image}" alt="${product.name}">
+        <h3>${product.name}</h3>
+
+        <p><strong>Item #:</strong> ${product["item number"]}</p>
+        <p><strong>Brand:</strong> ${product.brand}</p>
+        <p><strong>Category:</strong> ${product.category}</p>
+        <p><strong>Unit Weight:</strong> ${product["unit weight"]}</p>
+        <p><strong>Case Qty:</strong> ${product["case qty"]}</p>
+        <p><strong>Shelf Life:</strong> ${product["shelf life"]}</p>
+
+        <a href="${product.spec}" target="_blank">Download Spec Sheet</a>
+    </div>
+`;
         });
     }
 
