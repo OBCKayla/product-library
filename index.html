@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ann Marie’s Product Library</title>
+    <title>Olson's Baking Company Product Library</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<h1>Ann Marie’s Product Specifications</h1>
+<!-- Header with stacked logos -->
+<header class="site-header">
+    <div class="logos">
+        <img src="images/olsons-logo.png" alt="Olson's Logo" class="logo">
+        <img src="images/annmarie-logo.png" alt="Ann Marie's Logo" class="logo">
+    </div>
+    <h1>Olson's Baking Company Product Specifications</h1>
+</header>
 
+<!-- Search bar -->
 <input type="text" id="search" placeholder="Search products...">
 
+<!-- Category filter -->
 <select id="categoryFilter">
     <option value="">All Categories</option>
 </select>
 
+<!-- Product cards container -->
 <div id="productContainer"></div>
 
 <script src="script.js"></script>
