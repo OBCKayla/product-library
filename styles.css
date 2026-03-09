@@ -1,8 +1,55 @@
+/* Body and general font */
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
 }
 
+/* Header with stacked logos */
+.site-header {
+    text-align: center; /* center everything */
+    margin-bottom: 30px;
+}
+
+.site-header .logos {
+    display: flex;
+    flex-direction: column; /* stack logos vertically */
+    align-items: center;
+    gap: 10px; /* space between logos */
+    margin-bottom: 15px; /* space between logos and title */
+}
+
+.site-header .logo {
+    height: 60px; /* adjust as needed */
+    width: auto;
+}
+
+/* Header title styling */
+.site-header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Search bar styling (optional improvement) */
+#search {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Category dropdown styling */
+#categoryFilter {
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Product container/grid */
 #productContainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -10,13 +57,17 @@ body {
     margin-top: 20px;
 }
 
+/* Individual product cards */
 .product {
     border: 1px solid #ddd;
     padding: 15px;
     border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
+/* Product images */
 .product img {
     max-width: 100%;
     height: auto;
+    margin-bottom: 10px;
 }
