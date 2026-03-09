@@ -1,57 +1,83 @@
 fetch('products.json')
   .then(response => response.json())
   .then(data => {
+
     const container = document.getElementById('productContainer');
     const searchInput = document.getElementById('search');
     const categoryFilter = document.getElementById('categoryFilter');
 
-    // Populate categories
-    const categories = [...new Set(data.map(p => p.category))];
+    // Populate category dropdown
+    const categories = [...new Set(data.map(p => p.category))].filter(Boolean);
+
     categories.forEach(cat => {
-        const option = document.createElement('option');
-        option.value = cat;
-        option.textContent = cat;
-        categoryFilter.appendChild(option);
+      const option = document.createElement('option');
+      option.value = cat;
+      option.textContent = cat;
+      categoryFilter.appendChild(option);
     });
 
     function displayProducts(products) {
-        container.innerHTML = '';
-        products.forEach(product => {
-            container.innerHTML += `
-   <div class="product">
-        <img src="${product.image}" alt="${product.name}">
-        <h3>${product.name}</h3>
 
-        <p><strong>Item #:</strong> ${product["item number"]}</p>
-        <p><strong>Brand:</strong> ${product.brand}</p>
-        <p><strong>Category:</strong> ${product.category}</p>
-        <p><strong>Unit Weight:</strong> ${product["unit weight"]}</p>
-        <p><strong>Case Qty:</strong> ${product["case qty"]}</p>
-        <p><strong>Shelf Life:</strong> ${product["shelf life"]}</p>
+      container.innerHTML = '';
 
-        <a href="${product.spec}" target="_blank">Download Spec Sheet</a>
-    </div>
-`;
-        });
+      if (products.length === 0) {
+        container.innerHTML = "<p>No products found.</p>";
+        return;
+      }
+
+      products.forEach(product => {
+
+        const card = document.createElement('div');
+        card.className = "product";
+
+        card.innerHTML = `
+          <img src="${product.image}" alt="${product.name}">
+
+          <h3>${product.name}</h3>
+
+          <p><strong>Item #:</strong> ${product["item number"] || ""}</p>
+          <p><strong>Brand:</strong> ${product.brand || ""}</p>
+          <p><strong>Category:</strong> ${product.category || ""}</p>
+          <p><strong>Unit Weight:</strong> ${product["unit weight"] || ""}</p>
+          <p><strong>Case Qty:</strong> ${product["case qty"] || ""}</p>
+          <p><strong>Shelf Life:</strong> ${product["shelf life"] || ""}</p>
+
+          <a href="${product.spec}" target="_blank">Download Spec Sheet</a>
+        `;
+
+        container.appendChild(card);
+
+      });
+
     }
 
-    searchInput.addEventListener('input', () => {
-    const value = searchInput.value.toLowerCase();
+    function filterProducts() {
 
-    const filtered = data.filter(product => {
-        return Object.values(product).some(field =>
-            String(field).toLowerCase().includes(value)
+      const searchValue = searchInput.value.toLowerCase();
+      const selectedCategory = categoryFilter.value;
+
+      const filtered = data.filter(product => {
+
+        const matchesSearch = Object.values(product).some(value =>
+          String(value).toLowerCase().includes(searchValue)
         );
-    });
 
-    displayProducts(filtered);
-});
+        const matchesCategory =
+          selectedCategory === "" || product.category === selectedCategory;
 
-    categoryFilter.addEventListener('change', () => {
-        const value = categoryFilter.value;
-        const filtered = value
-            ? data.filter(p => p.category === value)
-            : data;
-        displayProducts(filtered);
-    });
-});
+        return matchesSearch && matchesCategory;
+
+      });
+
+      displayProducts(filtered);
+
+    }
+
+    // Event listeners
+    searchInput.addEventListener('input', filterProducts);
+    categoryFilter.addEventListener('change', filterProducts);
+
+    // Initial load
+    displayProducts(data);
+
+  });
