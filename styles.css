@@ -21,7 +21,7 @@ body {
 
 /* Individual logos */
 .site-header .logo {
-    height: 45px;   /* control logo size */
+    height: 55px;   /* control logo size */
     width: auto;
     object-fit: contain;
 }
