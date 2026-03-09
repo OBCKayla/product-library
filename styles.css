@@ -12,17 +12,19 @@ body {
 
 .site-header .logos {
     display: flex;
-    flex-direction: column; /* stack logos vertically */
+    flex-direction: column;
     align-items: center;
-    gap: 10px; /* space between logos */
-    margin-bottom: 15px; /* space between logos and title */
+    gap: 8px;          /* space between stacked logos */
+    margin-bottom: 12px; /* space between logos and title */
 }
 
-/* Balanced stacked logos */
+/* Header logos stacked with controlled size */
 .site-header .logo {
-    max-height: 45px;   /* medium size */
-    width: auto;        /* maintain aspect ratio */
-    object-fit: contain; /* keeps logo proportion correct */
+    height: 45px;      /* forces the height to 45px */
+    max-height: 45px;  /* ensures it cannot grow bigger */
+    width: auto;       /* maintain aspect ratio */
+    object-fit: contain;
+    display: block;
 }
 
 /* Header title styling */
