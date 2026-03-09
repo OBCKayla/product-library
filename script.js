@@ -8,7 +8,6 @@ fetch('products.json')
 
     // Populate category dropdown
     const categories = [...new Set(data.map(p => p.category))].filter(Boolean);
-
     categories.forEach(cat => {
       const option = document.createElement('option');
       option.value = cat;
@@ -16,8 +15,8 @@ fetch('products.json')
       categoryFilter.appendChild(option);
     });
 
+    // Function to display product cards
     function displayProducts(products) {
-
       container.innerHTML = '';
 
       if (products.length === 0) {
@@ -26,51 +25,43 @@ fetch('products.json')
       }
 
       products.forEach(product => {
-
         const card = document.createElement('div');
         card.className = "product";
 
         card.innerHTML = `
           <img src="${product.image}" alt="${product.name}">
-
           <h3>${product.name}</h3>
-
-          <p><strong>Item #:</strong> ${product["item number"] || ""}</p>
-          <p><strong>Brand:</strong> ${product.brand || ""}</p>
-          <p><strong>Category:</strong> ${product.category || ""}</p>
-          <p><strong>Unit Weight:</strong> ${product["unit weight"] || ""}</p>
-          <p><strong>Case Qty:</strong> ${product["case qty"] || ""}</p>
-          <p><strong>Shelf Life:</strong> ${product["shelf life"] || ""}</p>
-
+          <p><strong>Item #:</strong> ${product["item number"]}</p>
+          <p><strong>Brand:</strong> ${product.brand}</p>
+          <p><strong>Category:</strong> ${product.category}</p>
+          <p><strong>Unit Weight:</strong> ${product["unit weight"]}</p>
+          <p><strong>Case Qty:</strong> ${product["case qty"]}</p>
+          <p><strong>Shelf Life:</strong> ${product["shelf life"]}</p>
           <a href="${product.spec}" target="_blank">Download Spec Sheet</a>
         `;
 
         container.appendChild(card);
-
       });
-
     }
 
+    // Function to filter products by search and category
     function filterProducts() {
-
       const searchValue = searchInput.value.toLowerCase();
       const selectedCategory = categoryFilter.value;
 
       const filtered = data.filter(product => {
-
+        // Search all fields
         const matchesSearch = Object.values(product).some(value =>
           String(value).toLowerCase().includes(searchValue)
         );
 
-        const matchesCategory =
-          selectedCategory === "" || product.category === selectedCategory;
+        // Category filter
+        const matchesCategory = selectedCategory === "" || product.category === selectedCategory;
 
         return matchesSearch && matchesCategory;
-
       });
 
       displayProducts(filtered);
-
     }
 
     // Event listeners
@@ -80,4 +71,7 @@ fetch('products.json')
     // Initial load
     displayProducts(data);
 
+  })
+  .catch(error => {
+    console.error("Error loading products.json:", error);
   });
