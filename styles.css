@@ -18,11 +18,11 @@ body {
     margin-bottom: 15px; /* space between logos and title */
 }
 
-/* Force smaller stacked logos */
+/* Balanced stacked logos */
 .site-header .logo {
-    max-height: 30px;   /* sets the max height to 30px */
+    max-height: 45px;   /* medium size */
     width: auto;        /* maintain aspect ratio */
-    object-fit: contain; /* ensures the logo fits within the box */
+    object-fit: contain; /* keeps logo proportion correct */
 }
 
 /* Header title styling */
