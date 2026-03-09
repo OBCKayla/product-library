@@ -29,15 +29,17 @@ fetch('products.json')
         });
     }
 
-    displayProducts(data);
-
     searchInput.addEventListener('input', () => {
-        const value = searchInput.value.toLowerCase();
-        const filtered = data.filter(p =>
-            p.name.toLowerCase().includes(value)
+    const value = searchInput.value.toLowerCase();
+
+    const filtered = data.filter(product => {
+        return Object.values(product).some(field =>
+            String(field).toLowerCase().includes(value)
         );
-        displayProducts(filtered);
     });
+
+    displayProducts(filtered);
+});
 
     categoryFilter.addEventListener('change', () => {
         const value = categoryFilter.value;
