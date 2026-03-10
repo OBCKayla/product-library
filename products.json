@@ -746,5 +746,82 @@
     "shelf life": "10 days",
     "image": "images/50786_ICEDGINGERB.jpeg",
     "spec": "specs/50786_Spec.pdf"
+  },
+  {
+    "name": "Gluten Free Blueberry Mini Muffin 12 PK",
+    "item number": "30110",
+    "brand": "Franny's",
+    "category": "Mini Muffin",
+    "unit weight": "10 oz",
+    "case qty": "8",
+    "shelf life": "6 days",
+    "image": "images/30110_Photo.jpeg",
+    "spec": "specs/30110_Spec.pdf"
+  },
+  {
+    "name": "Gluten Free Mini Brownie Tub",
+    "item number": "30173",
+    "brand": "Franny's",
+    "category": "Brownie",
+    "unit weight": "9 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/30173_Photo.jpeg",
+    "spec": "specs/30173_Spec.pdf"
+  },
+  {
+    "name": "Gluten Free White Iced Cupcake 4PK",
+    "item number": "30180",
+    "brand": "Franny's",
+    "category": "Cake",
+    "unit weight": "8 oz",
+    "case qty": "8",
+    "shelf life": "6 days",
+    "image": "images/30180_Photo.jpeg",
+    "spec": "specs/30180_Spec.pdf"
+  },
+  {
+    "name": "Gluten Free Chocolate Iced Cupcake 4PK",
+    "item number": "30182",
+    "brand": "Franny's",
+    "category": "Cake",
+    "unit weight": "8 oz",
+    "case qty": "8",
+    "shelf life": "6 days",
+    "image": "images/30182_Photo.jpeg",
+    "spec": "specs/30182_Spec.pdf"
+  },
+  {
+    "name": "OverJoyed Angel Food Ring Cake",
+    "item number": "42807SA",
+    "brand": "OverJoyed",
+    "category": "Angel Food",
+    "unit weight": "10 oz",
+    "case qty": "6",
+    "shelf life": "14 days",
+    "image": "images/42807SA_Photo.jpeg",
+    "spec": "specs/42807SA_Spec.pdf"
+  },
+  {
+    "name": "OverJoyed Angel Food Loaf",
+    "item number": "42812SA",
+    "brand": "OverJoyed",
+    "category": "Angel Food",
+    "unit weight": "11 oz",
+    "case qty": "12",
+    "shelf life": "14 days",
+    "image": "images/42812SA_Photo.jpeg",
+    "spec": "specs/42812SA_Spec.pdf"
+  },
+  {
+    "name": "OverJoyed Angel Food Mini Cake 4 PK",
+    "item number": "42821SA",
+    "brand": "OverJoyed",
+    "category": "Angel Food",
+    "unit weight": "6.5 oz",
+    "case qty": "12",
+    "shelf life": "14 days",
+    "image": "images/42821SA_Photo.jpeg",
+    "spec": "specs/42821SA_Spec.pdf"
   }
 ]
