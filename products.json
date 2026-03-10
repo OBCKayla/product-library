@@ -86,5 +86,60 @@
     "shelf life": "10 days",
     "image": "images/40769_ButterCake.jpeg",
     "spec": "specs/40769_Spec.pdf"
-  }
+  },
+   {
+    "name": "Sliced Iced Chocolate Marble Crème Cake",
+    "item number": "50777",
+    "brand": "Olson's",
+    "category": "Iced Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/50777_ICEDCHOCMARB.jpeg",
+    "spec": "specs/50777_Spec.pdf"
+  },
+   {
+    "name": "Sliced Iced Strawberry Swirl Crème Cake",
+    "item number": "50778",
+    "brand": "Olson's",
+    "category": "Iced Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/50778_ICEDSTRAW.jpeg",
+    "spec": "specs/50778_Spec.pdf"
+  },
+   {
+    "name": "No Sugar Added Blueberry Mini Muffins",
+    "item number": "60994",
+    "brand": "Ann Marie's",
+    "category": "Mini Muffins",
+    "unit weight": "10 oz",
+    "case qty": "6",
+    "shelf life": "14 days",
+    "image": "images/60994_BlueMuffin.jpeg",
+    "spec": "specs/60994_Spec.pdf"
+  },
+   {
+    "name": "Angel Food Ring Cake",
+    "item number": "40807",
+    "brand": "Olson's",
+    "category": "Angel Food",
+    "unit weight": "10 oz",
+    "case qty": "8",
+    "shelf life": "14 days",
+    "image": "images/40807_AngelCake.jpeg",
+    "spec": "specs/40807_Spec.pdf"
+  },
+   {
+    "name": "Corn Bread",
+    "item number": "30803",
+    "brand": "Olson's",
+    "category": "Corn bread",
+    "unit weight": "14 oz",
+    "case qty": "12",
+    "shelf life": "21 days",
+    "image": "images/30803_CornBread.jpeg",
+    "spec": "specs/30803_Spec.pdf"
+  },
 ]
