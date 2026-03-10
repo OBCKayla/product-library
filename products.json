@@ -87,7 +87,7 @@
     "image": "images/40769_ButterCake.jpeg",
     "spec": "specs/40769_Spec.pdf"
   },
-   {
+  {
     "name": "Sliced Iced Chocolate Marble Crème Cake",
     "item number": "50777",
     "brand": "Olson's",
@@ -98,7 +98,7 @@
     "image": "images/50777_ICEDCHOCMARB.jpeg",
     "spec": "specs/50777_Spec.pdf"
   },
-   {
+  {
     "name": "Sliced Iced Strawberry Swirl Crème Cake",
     "item number": "50778",
     "brand": "Olson's",
@@ -109,7 +109,7 @@
     "image": "images/50778_ICEDSTRAW.jpeg",
     "spec": "specs/50778_Spec.pdf"
   },
-   {
+  {
     "name": "No Sugar Added Blueberry Mini Muffins",
     "item number": "60994",
     "brand": "Ann Marie's",
@@ -120,7 +120,7 @@
     "image": "images/60994_BlueMuffin.jpeg",
     "spec": "specs/60994_Spec.pdf"
   },
-   {
+  {
     "name": "Angel Food Ring Cake",
     "item number": "40807",
     "brand": "Olson's",
@@ -131,7 +131,7 @@
     "image": "images/40807_AngelCake.jpeg",
     "spec": "specs/40807_Spec.pdf"
   },
-   {
+  {
     "name": "Corn Bread",
     "item number": "30803",
     "brand": "Olson's",
