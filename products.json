@@ -42,5 +42,49 @@
     "shelf life": "21 days",
     "image": "images/60855_ChocChipCoo.jpeg",
     "spec": "specs/60855_Spec.pdf"
+  },
+  {
+    "name": "Sliced Red Velvet Crème Cake",
+    "item number": "40758",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40758_RedVelCake.jpeg",
+    "spec": "specs/40758_Spec.pdf"
+  },
+  {
+    "name": "Sliced Cherry Vanilla Swirl Crème Cake",
+    "item number": "40762",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40762_CherVanilCake.jpeg",
+    "spec": "specs/40762_Spec.pdf"
+  },
+  {
+    "name": "Sliced Banana Nut Crème Cake",
+    "item number": "40768",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40768_BanNutCake.jpeg",
+    "spec": "specs/40768_Spec.pdf"
+  },
+  {
+    "name": "Sliced Butter Crème Cake",
+    "item number": "40769",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40769_ButterCake.jpeg",
+    "spec": "specs/40769_Spec.pdf"
   }
 ]
