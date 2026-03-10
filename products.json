@@ -661,14 +661,14 @@
   },
   {
     "name": "Sliced Iced Cherry Vanilla Swirl Crème Cake",
-    "item number": "50771",
+    "item number": "50762",
     "brand": "Olson's",
     "category": "Iced Crème Cake",
     "unit weight": "16 oz",
     "case qty": "12",
     "shelf life": "10 days",
-    "image": "images/50771_ICEDCHERVAN.jpeg",
-    "spec": "specs/50771_Spec.pdf"
+    "image": "images/50762_ICEDCHERVAN.jpeg",
+    "spec": "specs/50762_Spec.pdf"
   },
   {
     "name": "Sliced Iced Birthday Crème Cake",
@@ -694,14 +694,14 @@
   },
   {
     "name": "Sliced Iced Chocolate Crème Cake",
-    "item number": "50762",
+    "item number": "50771",
     "brand": "Olson's",
     "category": "Iced Crème Cake",
     "unit weight": "16 oz",
     "case qty": "12",
     "shelf life": "10 days",
-    "image": "images/50762_ICEDCHOC.jpeg",
-    "spec": "specs/50762_Spec.pdf"
+    "image": "images/50771_ICEDCHOC.jpeg",
+    "spec": "specs/50771_Spec.pdf"
   },
   {
     "name": "Sliced Iced Vanilla Crème Cake",
