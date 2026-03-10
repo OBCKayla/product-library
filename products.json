@@ -240,5 +240,192 @@
     "shelf life": "10 days",
     "image": "images/40826_PoundCakeL.jpeg",
     "spec": "specs/40826_Spec.pdf"
+  },
+  {
+    "name": "Sliced Chocolate Marble Crème Cake",
+    "item number": "40777",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40777_CocMarbCake.jpeg",
+    "spec": "specs/40777_Spec.pdf"
+  },
+  {
+    "name": "Sliced Cinnamon Swirl Crème Cake",
+    "item number": "40781",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40781_CinCake.jpeg",
+    "spec": "specs/40781_Spec.pdf"
+  },
+  {
+    "name": "Sliced Banana Crème Cake",
+    "item number": "40772",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40772_BanCremeCake.jpeg",
+    "spec": "specs/40772_Spec.pdf"
+  },
+  {
+    "name": "Sliced Pound Cake",
+    "item number": "40773",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40773_Poundcake.jpeg",
+    "spec": "specs/40773_Spec.pdf"
+  },
+  {
+    "name": "Sliced Chocolate Crème Cake",
+    "item number": "40771",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40771_ChocCake.jpeg",
+    "spec": "specs/40771_Spec.pdf"
+  },
+  {
+    "name": "Sliced Strawberry Swirl Crème Cake",
+    "item number": "40778",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40778_StrawSwirlCake.jpeg",
+    "spec": "specs/40778_Spec.pdf"
+  },
+  {
+    "name": "Sliced Pistachio Crème Cake",
+    "item number": "40788",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40788_PistCake.jpeg",
+    "spec": "specs/40788_Spec.pdf"
+  },
+  {
+    "name": "Sliced Lemon Blueberry Crème Cake",
+    "item number": "40790",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40790_LemBlueCake.jpeg",
+    "spec": "specs/40790_Spec.pdf"
+  },
+  {
+    "name": "Sliced Cherry Chocolate Swirl Crème Cake",
+    "item number": "40792",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40792_ChocCherCake.jpeg",
+    "spec": "specs/40792_Spec.pdf"
+  },
+  {
+    "name": "Sliced Caramel Chocolate Crème Cake",
+    "item number": "40794",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40794_CarmChocCake.jpeg",
+    "spec": "specs/40794_Spec.pdf"
+  },
+  {
+    "name": "Sliced Key Lime Crème Cake",
+    "item number": "40796",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40796_KeyLimeCake.jpeg",
+    "spec": "specs/40796_Spec.pdf"
+  },
+  {
+    "name": "Holiday Tray with Cranberry Orange-Pumpkin-Cinnamon Swirl",
+    "item number": "40735",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40735_OLHolidaytray.jpeg",
+    "spec": "specs/40735_Spec.pdf"
+  },
+  {
+    "name": "Sliced Tray with Lemon-Strawberry Swirl-Pistachio",
+    "item number": "40740",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40740_OLSlicedTray.jpeg",
+    "spec": "specs/40740_Spec.pdf"
+  },
+  {
+    "name": "Sliced Pumpkin Crème Cake",
+    "item number": "40776",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40776_OlPumpkinCake.jpeg",
+    "spec": "specs/40776_Spec.pdf"
+  },
+  {
+    "name": "Sliced Cranberry Orange Crème Cake",
+    "item number": "40779",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40779_OlCranOrangeCake.jpeg",
+    "spec": "specs/40779_Spec.pdf"
+  },
+  {
+    "name": "Sliced Apple Cinnamon Crème Cake",
+    "item number": "40782",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40782_OlAppCinnCake.jpeg",
+    "spec": "specs/40782_Spec.pdf"
+  },
+  {
+    "name": "Sliced Gingerbread Crème Cake",
+    "item number": "40786",
+    "brand": "Olson's",
+    "category": "Crème Cake",
+    "unit weight": "16 oz",
+    "case qty": "12",
+    "shelf life": "10 days",
+    "image": "images/40786_GINGERB.jpeg",
+    "spec": "specs/40786_Spec.pdf"
   }
 ]
