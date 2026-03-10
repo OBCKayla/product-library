@@ -141,5 +141,104 @@
     "shelf life": "21 days",
     "image": "images/30803_CornBread.jpeg",
     "spec": "specs/30803_Spec.pdf"
+  },
+   {
+    "name": "Sliced Angel Food Loaf",
+    "item number": "40799",
+    "brand": "Olson's",
+    "category": "Angel Food",
+    "unit weight": "8 oz",
+    "case qty": "12",
+    "shelf life": "14 days",
+    "image": "images/40799_AngelLoaf.jpeg",
+    "spec": "specs/40799_Spec.pdf"
+  },
+   {
+    "name": "Angel Food Loaf",
+    "item number": "40812",
+    "brand": "Olson's",
+    "category": "Angel Food",
+    "unit weight": "11 oz",
+    "case qty": "12",
+    "shelf life": "14 days",
+    "image": "images/40812_AngelFullLoaf.jpeg",
+    "spec": "specs/40812_Spec.pdf"
+  },
+   {
+    "name": "Angel Food Mini Cake 4 PK",
+    "item number": "40821",
+    "brand": "Olson's",
+    "category": "Angel Food",
+    "unit weight": "7 oz",
+    "case qty": "12",
+    "shelf life": "14 days",
+    "image": "images/40821_AngelMiniRings.jpeg",
+    "spec": "specs/40821_Spec.pdf"
+  },
+   {
+    "name": "Angel Food Strawberry Mini Cake 4 PK",
+    "item number": "40823",
+    "brand": "Olson's",
+    "category": "Angel Food",
+    "unit weight": "7 oz",
+    "case qty": "12",
+    "shelf life": "14 days",
+    "image": "images/40823_StrawangMiniRings.jpeg",
+    "spec": "specs/40823_Spec.pdf"
+  },
+  {
+    "name": "Hatch Chile Corn Bread",
+    "item number": "30802",
+    "brand": "Olson's",
+    "category": "Corn bread",
+    "unit weight": "14 oz",
+    "case qty": "12",
+    "shelf life": "21 days",
+    "image": "images/30802_HatchChiCB.jpeg",
+    "spec": "specs/30802_Spec.pdf"
+  },
+  {
+    "name": "Jalapeno Corn Bread",
+    "item number": "30804",
+    "brand": "Olson's",
+    "category": "Corn bread",
+    "unit weight": "14 oz",
+    "case qty": "12",
+    "shelf life": "21 days",
+    "image": "images/30804_JalaCB.jpeg",
+    "spec": "specs/30804_Spec.pdf"
+  },
+  {
+    "name": "Hot Honey Hatch Chile Corn Bread",
+    "item number": "30806",
+    "brand": "Olson's",
+    "category": "Corn bread",
+    "unit weight": "14 oz",
+    "case qty": "12",
+    "shelf life": "21 days",
+    "image": "images/30806_HHoneyCB.jpeg",
+    "spec": "specs/30806_Spec.pdf"
+  },
+  {
+    "name": "Original Butter Pound Cake Loaf",
+    "item number": "30700",
+    "brand": "Olson's",
+    "category": "Loafs",
+    "unit weight": "14 oz",
+    "case qty": "9",
+    "shelf life": "12 days",
+    "image": "images/30700_OFButtPoundCake.jpeg",
+    "spec": "specs/30700_Spec.pdf"
+  },
+   {
+    "name": "Pound Cake Loaf",
+    "item number": "40826",
+    "brand": "Olson's",
+    "category": "Loafs",
+    "unit weight": "16 oz",
+    "case qty": "8",
+    "shelf life": "10 days",
+    "image": "images/40826_PoundCakeL.jpeg",
+    "spec": "specs/40826_Spec.pdf"
   }
 ]
