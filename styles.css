@@ -4,34 +4,32 @@ body {
     margin: 40px;
 }
 
-/* Header container: logos left, title centered */
+/* Header banner */
 .site-header {
-    display: flex;               /* row layout */
-    align-items: center;         /* vertically center logos and title */
-    justify-content: flex-start; /* start from left */
-    gap: 20px;                   /* space between logos and title */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: #8FA3C7;
+    
+    padding: 20px 60px;
     margin-bottom: 30px;
+
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);  /* ADD THIS LINE */
 }
 
-/* Logos group side by side */
-.site-header .logos {
-    display: flex; /* logos horizontally */
-    gap: 10px;     /* space between logos */
-}
-
-/* Individual logos */
+/* Logos */
 .site-header .logo {
-    height: 55px;   /* control logo size */
+    height: 65px;  /* slightly larger */
     width: auto;
-    object-fit: contain;
 }
 
-/* Title styling */
+/* Title */
 .site-header h1 {
-    flex: 1;           /* take remaining horizontal space */
-    text-align: center; /* center title */
+    flex: 1;
+    text-align: center;
+    color: white;
     font-size: 2em;
-    font-weight: bold;
     margin: 0;
 }
 
