@@ -7,6 +7,21 @@ body {
     margin: 0;
     background-color: #f4f6fa;
 }
+/* Remove default link styling */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Prevent purple visited links */
+a:visited {
+    color: inherit;
+}
+
+/* Optional: subtle hover effect */
+a:hover {
+    opacity: 0.85;
+}
 
 /* Main content wrapper */
 .container {
