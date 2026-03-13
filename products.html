@@ -1,39 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Olson's Baking Company Product Library</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="inner-page">
 
-<!-- Header with stacked logos -->
-<header class="site-header">
+    <!-- Sidebar Navigation -->
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="products.html">Product Library</a>
+        <a href="forms.html">Forms</a>
+    </nav>
 
-    <img src="images/Final-OLSON2026-logo.jpg" alt="Olson's Logo" class="logo left-logo">
+    <!-- Main Content Area -->
+    <div class="content">
+        <header class="site-header">
+            <img src="images/Final-OLSON2026-logo.jpg" alt="Olson's Logo" class="logo">
+            <h1>Product Library</h1>
+            <img src="images/Ann-Marie's-Sugar-Free-Logo.jpg" alt="Ann Marie's Logo" class="logo">
+        </header>
 
-    <h1>Olson's Baking Company Product Specifications</h1>
+        <input type="text" id="search" placeholder="Search products...">
 
-    <img src="images/Ann-Marie's-Sugar-Free-Logo.jpg" alt="Ann Marie's Logo" class="logo right-logo">
+        <select id="categoryFilter">
+            <option value="">All Categories</option>
+        </select>
 
-</header>
+        <div id="productContainer"></div>
 
-<nav class="main-nav">
-    <a href="index.html">Home</a>
-    <a href="products.html">Product Library</a>
-    <a href="forms.html">Forms</a>
-</nav>
+        <script src="script.js"></script>
+    </div>
 
-<!-- Search bar -->
-<input type="text" id="search" placeholder="Search products...">
-
-<!-- Category filter -->
-<select id="categoryFilter">
-    <option value="">All Categories</option>
-</select>
-
-<!-- Product cards container -->
-<div id="productContainer"></div>
-
-<script src="script.js"></script>
 </body>
 </html>
