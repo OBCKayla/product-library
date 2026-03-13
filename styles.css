@@ -190,3 +190,52 @@ body.inner-page .product img {
     height: auto;
     margin-bottom: 8px;
 }
+/* ============================= */
+/* Home Page - Split Buttons with Images */
+/* ============================= */
+.home-container {
+    display: flex;
+    gap: 20px;
+    margin: 60px auto;
+    max-width: 1200px;
+    height: 60vh; /* adjust height as needed */
+}
+
+.home-card {
+    flex: 1; /* each takes 50% */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+/* Overlay for darkening image so text is readable */
+.home-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+}
+
+.home-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+/* Card text styling */
+.home-card .card-text {
+    position: relative; /* sits above overlay */
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+}
