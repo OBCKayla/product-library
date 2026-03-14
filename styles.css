@@ -243,11 +243,9 @@ body.inner-page .product img {
 
 /* Background Images */
 .product-bg {
-    background-image: url('https://picsum.photos/800/600');
+    background-image: url('images/Astiers-family-shoot-45.jpg');
 }
 
 .forms-bg {
     background-image: url('images/Astiers-family-shoot-53.jpg');
-    background-size: cover;
-    background-position: center;
 }
